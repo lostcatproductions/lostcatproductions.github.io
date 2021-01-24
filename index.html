@@ -39,7 +39,7 @@
     'All your 68K Belong to Us', 
     'Stakeholder of the New 68K'
   ];
-  const randomIndex = Math.round(Math.random()*messages.length);
+  const randomIndex = Math.floor(Math.random() * messages.length);
   document.getElementById("slogan").innerHTML = messages[randomIndex];
 </script>
 

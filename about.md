@@ -4,13 +4,16 @@ title: About
 permalink: /about/
 ---
 
-I've been a firmware developer since the mid 90's specializing in Motorola 68xx and 68xxx systems with a recent detour into ARM microcontrollers. My first love was my Commodore Amiga 500 and this page is dedicated to projects supporting its legacy.
+The Buffee Accelerator Project is the brainchild of Renee Cousins and Tim Wacker; started in the fall of 2019, it was originally conceived as the ultimate 68000 accelerator to actually deliver on the promises made by the Vampire accelerator released a few years ago. Disappointed by it's direction and lack of any performance improvments, we named the project "Buffy" for obvious reasons. This was recently renamed to Buffee to avoid any intellectual property disputes; but we'll do our best to keep our tongues firmly in-cheek.
 
-### Contact me
+### Contact Us
 
-[nonarkitten@gmail.com](mailto:nonarkitten@gmail.com)
+[Renee Cousins](mailto:renee.cousins@buffee.ca)
+
+[Tim Wacker](mailto:tim.wacker@buffee.ca)
 
 #### Thanks To
+
 [Icons by Icons8](https://iconscout.com/contributors/icons8)
 
 [Github Pages Blog Template by Barry Clark](https://github.com/barryclark/jekyll-now)

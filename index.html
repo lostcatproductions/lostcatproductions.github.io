@@ -28,10 +28,18 @@
     <center>
       <div class="logo">
         <img src="/images/Buffee.png" width="256"/>
-        <br/>
-        Your 68K has Insufficient Cats
+        <p id="slogan"></p>
       </div>
     </center>
   </body>
 </html>
+<script>
+  const messages = [
+    'Your 68K has Insufficient Cats', 
+    'All your 68K Belong to Us', 
+    'Stakeholder of the New 68K'
+  ];
+  const randomIndex = Math.round(Math.random()*messages.length);
+  document.getElementById("slogan").innerHTML = messages[randomIndex];
+</script>
 

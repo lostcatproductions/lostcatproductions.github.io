@@ -1,3 +1,8 @@
+---
+layout: post
+title: Merry Christmas!
+---
+
 Well, 2020 has just flown by. I'm sure I'm not alone in saying good riddance. It's the year that broke the world and I sure hope that when we start rebuilding, that we don't make all the same mistakes.
 
 We had a very busy year over at CoolIT and I'm super proud to have wrapped up a marathon of debugging the firmware for the CHx80 which is now the most stable and feature rich version we've ever released (and due to code sharing will be the new base for all our other units). It seriously has chewed into my desire to do much coding on the side though, but I also kicked off this blog and am committed to seeing Buffy and PJIT through!

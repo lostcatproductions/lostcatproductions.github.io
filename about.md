@@ -12,7 +12,7 @@ The Buffee Accelerator Project is the brainchild of Renee Cousins and Tim Wacker
 
 [Tim Wacker](mailto:tim.wacker@buffee.ca)
 
-#### Thanks To
+### Thanks To
 
 [Icons by Icons8](https://iconscout.com/contributors/icons8)
 

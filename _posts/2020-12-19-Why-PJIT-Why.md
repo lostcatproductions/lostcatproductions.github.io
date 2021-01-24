@@ -1,3 +1,8 @@
+---
+layout: post
+title: Why PJIT, Why?
+---
+
 So I've had a few people ask why PJIT and not leverage something else like Emu68.
 Is there really room in the fairly small market for two 68000 to ARM JIT engines for the Amiga?
 Well, of course I think so and here's why.

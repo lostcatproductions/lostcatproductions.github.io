@@ -1,9 +1,9 @@
 ---
 layout: post
-title: PJIT Performance Series Part 1: Why is PJIT Fast?
+title: PJIT Performance Series Part 1 -- Why is PJIT Fast?
 ---
 
-# Why is PJIT Fast?
+## Why is PJIT Fast?
 
 This is the first part is a three part series that will be doing a bit of a deeper dive into the mechanics of PJIT in contrast to existing emulation technologies. Part two will be "Why is PJIT Slow" and will compare PJIT to bleeding edge 68K JIT engines like Emu68 and UAE. Part three will be "Why is PJIT Quicker" and will explain the overhead of JIT and why PJIT doesn't have this problem.
 

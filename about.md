@@ -16,7 +16,7 @@ The Buffee Accelerator Project is the brainchild of Renee Cousins and Tim Wacker
 
 [Buffee Firmware PJIT](https://github.com/nonarkitten/pseudo-jit)
 
-[Buffee Hardware](https://oshwlab.com/Renee/buffy2)
+[Buffee Hardware](https://oshwlab.com/Renee/buffee-accelerator)
 
 ### Thanks To
 

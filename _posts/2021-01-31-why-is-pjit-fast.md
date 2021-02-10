@@ -103,7 +103,7 @@ That's two cycles; an eleven-fold improvement!
 
 In many cases, flag setting is built into the arithmetic operation; move is rather unique here because it does not (nor cannot) set flags on the ARM processor. And since PJIT doesn't waste a precious register keeping a copy of the condition codes (except for the X flag), the worst-case for PJIT is only one more instruction.
 
-To know we can omit flag checking on opcodes that need the extra instruction, we have to look ahead to the next opcode(s) to see if they change the flags before they're used. The look-ahead can also be promblematic and since it's not a signifiant gain, we only ever scan one opcode ahead -- or more precisely, we replace prior opcodes with flagless variants on the next opcode if it updates the flags.
+To know we can omit flag checking on opcodes that need the extra instruction, we have to look ahead to the next opcode(s) to see if they change the flags before they're used. The look-ahead can also be promblematic and since it's not a significant gain, we only ever scan one opcode ahead -- or more precisely, we replace prior opcodes with flagless variants on the next opcode if it updates the flags.
 
 ## Instruction Inlining
 
@@ -156,7 +156,7 @@ Astute readers may wonder how we jump to the opcode lookup since PJIT exists in 
 
 I know the hardware isn't part of PJIT **literally** but it has strongly influenced its design.
 
-There is a reason we chose the AM335x and it had little to do with its raw performance. In fact, newer ARM processors found on Apple's new Macintosh computers are an order of magnitude faster and even the humble Raspberry Pi is several times faster -- per core. We chose ARM in general because of its ability to run in big endien mode, just like the original 68000. Most processors today, especially x86, are little endian and these requre a shuffling of bits after every word (16-bit) and long (32-bit) memory read and before every word or long memory write.
+There is a reason we chose the AM335x and it had little to do with its raw performance. In fact, newer ARM processors found on Apple's new Macintosh computers are an order of magnitude faster and even the humble Raspberry Pi is several times faster -- per core. We chose ARM in general because of its ability to run in big endian mode, just like the original 68000. Most processors today, especially x86, are little endian and these requre a shuffling of bits after every word (16-bit) and long (32-bit) memory read and before every word or long memory write.
 
 But the AM335x has one more feature that makes that even more important -- hardware memory access to the physical 68000 bus without any CPLD or FPGA performing "translation". The AM335x has a special peripheral called the GPMC (General Purpose Memory Controller) able to connect with nearly any 8-bit or 16-bit, synchronous or asynchronous memory bus. This ultra-flexible peripheral puts the 68000's 24-bit memory address right where it should be, so when we're translating a MOVE operation from the 68000, no addresses need to be translated.
 

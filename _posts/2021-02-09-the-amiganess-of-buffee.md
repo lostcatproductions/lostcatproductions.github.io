@@ -31,7 +31,7 @@ What this means is that from a ***default*** state, Buffee will operate in "ultr
 - Select between 68000 or 68030 instruction set (68000 default)
 - Select between No FPU, 68882, 68040 or fast 68040 FPU modes (No FPU is default)
 - Enable 68K MMU emulation
-- Preload an remap up to a 2MB ROM image (with or without 68K MMU enabled)
+- Preload and remap up to a 2MB ROM image (with or without 68K MMU enabled)
 
 None of these settings need to be set by a CLI utility on each boot (though they can be); these can be saved into the EEPROM memory which will be retained while powered off for decades! 
 

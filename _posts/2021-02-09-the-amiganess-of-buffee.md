@@ -26,7 +26,7 @@ What this means is that from a ***default*** state, Buffee will operate in "ultr
 - Set the location and amount of this RAM
 - Enable data and/or instruction caches for any memory block (by default only the instruction cache is enabled in 24-bit memory, all caches are enabled for 32-bit memory)
 - Enable PJIT instruction cache for any memory block (by default, PJIT ICache is enabled only on 32-bit memory)
-- Set the CPU back clock PLLs (presets for 275 to 1000 MHz)
+- Set the CPU base clock PLLs (presets for 275 to 1000 MHz)
 - Set the CPU clock divider (from 1 to 1/256th of the base clock)
 - Select between 68000 or 68030 instruction set (68000 default)
 - Select between No FPU, 68882, 68040 or fast 68040 FPU modes (No FPU is default)

@@ -94,4 +94,4 @@ Normally each JIT block will have some entry and exit code. At the end of the bl
 
 ## Conclusions
 
-So traditional JIT clearly looks a lost faster that PJIT, easily up to twice as fast! In fact, Emu68 can get very close to 1MIPS per MHz on JIT compiled code, which is absolutely amazing! But there are some things I've completely glossed over here that level the playing field quite a bit.
+So traditional JIT clearly looks a lot faster that PJIT, easily up to twice as fast! In fact, Emu68 can get very close to 1MIPS per MHz on JIT compiled code, which is absolutely amazing! But there are some things I've completely glossed over here that level the playing field quite a bit.

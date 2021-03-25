@@ -47,32 +47,32 @@ When PJIT sees this, it creates a branch to the subroutine to three routines; th
     ...
 
 ADDL_D1_D0:
-    ldr  r3, [r7]
-    ldr  r2, [r7, #4]
+    ldr   r3, [r7]
+    ldr   r2, [r7, #4]
     adds  r3, r3, r2
-    str  r3, [r7]
-    bx  lr
+    str   r3, [r7]
+    bx    lr
 
 ASR_L:
-    ldr  r3, [r7,]
+    ldr   r3, [r7,]
     lsrs  r3, r3, #1
-    str  r3, [r7]
-    bx  lr
+    str   r3, [r7]
+    bx    lr
 
 RTS:
-    ldr  r0, [r13], #4
-    bl reenter
+    ldr   r0, [r13], #4
+    bl    reenter
 ```
 These 14 instructions would take about eight cycles to execute and aren't ideal. There's a lot of load and store pressure here and we'd better have that state in some zero-cycle SRAM! However, regular JIT would do something more like this:
 ```
     ...
-    ldr  r3, [r7]
-    ldr  r2, [r7, #4]
+    ldr   r3, [r7]
+    ldr   r2, [r7, #4]
     adds  r3, r3, r2
     lsrs  r3, r3, #1
-    str  r3, [r7]
-    ldr  r0, [r13], #4
-    bx lr
+    str   r3, [r7]
+    ldr   r0, [r13], #4
+    bx    lr
 ```
 This takes about four cycles and ought to be nearly twice as fast as PJIT. Not only are we saving the extra branches here, but we're also performing a sort-of automatic peephole optimization by not storing and reloading the registers from memory!
 

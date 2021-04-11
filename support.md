@@ -14,6 +14,6 @@ Right now, this project being done because we love the Amiga community and belie
 
 We can do that too! In fact, you may have a lot more bitcoin handy than cash, and we're prefectly open to some of that cryptocurrency goodness! Just use the QR code or wallet address below.
 
-```3Nc3mkNkhUVpPd3pV9rsFnoY2si4rKPFqK```
+```3JX9PzUNcDzqxPyTTWhECYdDvYbVHW8p53```
 
-![QR code](https://raw.githubusercontent.com/lostcatproductions/lostcatproductions.github.io/master/images/qr.png)
+![QR code](https://raw.githubusercontent.com/lostcatproductions/lostcatproductions.github.io/master/images/qr2.png)

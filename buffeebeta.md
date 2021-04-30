@@ -6,7 +6,7 @@ permalink: /buffeebeta/
 
 <table><tr><td width="50%">
   <img src="https://raw.githubusercontent.com/lostcatproductions/lostcatproductions.github.io/master/images/buffee_beta_price.jpg"/>
-  </td><td width="50%">
+  </td><td valign="top" width="50%">
 We are proud to kick off the beta program. We will be accepting pre-orders for up to 40 units. Once we reach this number, the beta is over! Please, only order one so that everyone who wants in on the beta has a chance. This is a pre-order and building the actual units will take up to five weeks!
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">

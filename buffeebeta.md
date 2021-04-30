@@ -4,8 +4,6 @@ title: Buy a Beta Buffee
 permalink: /buffeebeta/
 ---
 
-### Buy a Beta Buffee
-
 We are proud to kick off the beta program. We will be accepting pre-orders for up to 40 units. Once we reach this number, the beta is over! Please, only order one so that everyone who wants in on the beta has a chance. This is a pre-order and building the actual units will take up to five weeks!
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">

@@ -4,7 +4,7 @@ title: Buy a Beta Buffee
 permalink: /buffeebeta/
 ---
 
-We are proud to kick off the beta program. We will be accepting pre-orders for up to 40 units. Once we reach this number, the beta is over! Please, only order one so that everyone who wants in on the beta has a chance. This is a pre-order and building the actual units will take up to five weeks!
+We are proud to kick off the beta program. We will be accepting pre-orders for up to 40 units. Once we reach this number, the beta is over! Please, only order one so that everyone who wants in on the beta has a chance. This is a pre-order and building the actual units will take up to five weeks once all orders are in. Between that and chip shortages everywhere, we might not be getting boards out until June.
 
 <table cellpadding="8 px"><tr><td>
   <img src="https://raw.githubusercontent.com/lostcatproductions/lostcatproductions.github.io/master/images/buffee_beta_price.jpg"/>

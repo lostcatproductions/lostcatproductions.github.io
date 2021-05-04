@@ -4,6 +4,8 @@ title: Buy a Beta Buffee
 permalink: /buffeebeta/
 ---
 
+## SOLD OUT
+
 We are proud to kick off the beta program! We've decided to start this a now in hopes of securing the parts we need before "chipageddon" hits The Buffee Project. Chips should be back in stock by mid-summer in time for retail launch, but not for the beta.
 
 We will be accepting pre-orders for up to about 40 units. Once we reach this number, the beta is over! We should be able to kick off the next manufacturing round in the next few weeks and from there, up to five weeks to acutally make them.

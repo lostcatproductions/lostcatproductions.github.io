@@ -3,7 +3,7 @@ layout: post
 title: Beta Buffees Ordered!
 ---
 
-With a ton of testing behind us, we've pushed on to the second round of Buffee boards and have officially submitted the order for sixty beta Buffees. While we had hoped that the alpha version would just work, we we not so lucky and Buffee v0.5 has a new little friend -- a GreenPAK SPLD (Simple Programmable Logic Device) and we've ensured that on this version every signal that is not bound to the SPLD, is bound to the PRU (Programmable Realtime Unit) which is almost as good as the SPLD, just not quite as fast. This doesn't mean the alpha boards are useless though!
+With a ton of testing behind us, we've pushed on to the second round of Buffee boards and have officially submitted the order for sixty beta Buffees. While we had hoped that the alpha version would just work, we were not so lucky and Buffee v0.5 has a new little friend -- a GreenPAK SPLD (Simple Programmable Logic Device) and we've ensured that on this version every signal that is not bound to the SPLD, is bound to the PRU (Programmable Realtime Unit) which is almost as good as the SPLD, just not quite as fast. This doesn't mean the alpha boards are useless though!
 
 ![](https://raw.githubusercontent.com/lostcatproductions/lostcatproductions.github.io/master/images/Buffee_v0.5.png)
 

@@ -28,8 +28,8 @@ Oof. So you have an alpha and you're thinking right now that you're holding some
 
 We're seriously recommending the first. Like seriously. Yes, it's possible to remove and replace a BGA chip, but on the SAME chip, it's likely to result in catastrophic damage to the inner components of the CPU. And while the GreenPAK bodge is in theory possible, it would be fragile and very difficult to do correctly as at least one of the pads from the BGA is required and not brought outside of it's footprint.
 
-So beta's are off and with all the chip-shortages, we're actually just barely coming in under the MSRP with almost no margin left. Also, we're stuck with a six week build time as there are some lead times we have to absord. Such is life and I appologise, but there's really nothing we can do about this right now.
+So beta's are off and with all the chip-shortages, we're actually just barely coming in under the MSRP with almost no margin left. Also, we're stuck with a six week build time as there are some lead times we have to absorb. Such is life and I appologise, but there's really nothing we can do about this right now.
 
 Finally, some have commented that the PJIT github is "incomplete" (that's probably the nicest word people have used). We're keeping the core emulation of PJIT internal until retail launch, just to stop cloners from beating us to the finish line before us. Beta binaries will be provided to the testers through our Discord server. I cannot believe it's gotten this bad in the retro community -- if we want new hardware and new software, we have to support eachother and not undermine one another.
 
-C'est la vie, I suppose. And sorry for the long wait. I should have Part 3 of the Performance Series up next week.
+And sorry for the long wait. I should have Part 3 of the Performance Series up next week.

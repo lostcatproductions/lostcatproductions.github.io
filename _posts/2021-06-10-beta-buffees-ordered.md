@@ -14,7 +14,7 @@ Other than that and some artwork clean up, there's not a ton of differencee with
 - Made Flash SPI lines length matched to ensure good data up to 104MHz
 - Power rails changed to support down to 2.7V (alpha will brown out at 4.5V)
 - JTAG had no system reset only target reset (makes debugging annoying)
-- CLK pin may work either as an input or output (TF1200 support)
+- CLK pin may work either as an input or output (improved TF1200 support)
 - A few extra passives that weren't needed were removed
 - Switched to lower-profile headers to make Buffee the same height as a 68000
 - And added the GreenPAK for some simple programmable fun

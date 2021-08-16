@@ -27,7 +27,7 @@ And not fast either, the instruction routinely had to dig back into 68K memory a
 
 ## Enter multi-word decoding.
 
-So fo course the answer was staring me in the face all the time. Our old model shows all these NOP's filling the operand-gaps between opcodes -- so why not simply shuffle them around and have all the literals and extended addressing modes get handled BEFORE we execute the actual instruction.
+So of course the answer was staring me in the face all the time. Our old model shows all these NOP's filling the operand-gaps between opcodes -- so why not simply shuffle them around and have all the literals and extended addressing modes get handled BEFORE we execute the actual instruction.
 
 Most 68000 opcodes are a single word and PJIT must either compile these to a single, inline ARM instruction or branch to a subroutine to handle more complex operations. But there are many 68000 opcodes that take considerably more than one word and PJIT can handle these by having special operators for each word within the whole instruction.
 

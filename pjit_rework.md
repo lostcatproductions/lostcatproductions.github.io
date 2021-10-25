@@ -19,7 +19,7 @@ This covers Immediate, Absolute Word or Long, and Address or Program Counter wit
 
 Thus we have a number of addressing mode equivalents
 ```
-	Address, Indexed      (d16,An) or (d8,Xn,An)
+    Address, Indexed      (d16,An) or (d8,Xn,An)
 
     Address, Absolute     (d16,PC) or (d8,Xn,PC) or 
                           (xxx).W or (xxx).L

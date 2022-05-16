@@ -19,7 +19,7 @@ Again, we already have code and the original OCS schematics, and have learned a 
 - 16MB of 133MHz, 8-bit pSRAM for AGA+ bandwidth
 - 1MB, 2MB Agnus and 2MB Alice compatibility
 - Jumpered NTSC/PAL default modes (will also obey pin and software changes)
-- Automatic 8327 and 8375 pin detection (universal socket compatibility)
+- Automatic 8372 and 8375 pin detection (universal socket compatibility)
 - Many optional features to come
 
 There is news on Buffee as well that we'll post in coming days. Thanks!

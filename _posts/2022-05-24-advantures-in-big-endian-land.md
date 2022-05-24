@@ -47,7 +47,7 @@ So now big endian is working. It works for DRAM. It works with the GPMC. The onl
 
 ## How This Relates to Buffee
 
-When we first encounted this option, we decided that the best option for now was to physically swap the bytes on the GPMC interface. This means word reads and writes have a built-in byte swap and since this is most operations (e.g., opcode fetches), this seemed okay. For byte read/write we xor the address and for long read/write we swap the high/low portions of the long word. This leads to one extra opcode in all 8-bit memory operations and one (read/write) or two (read-modify-write) extra opcodes on 32-bit memory operations.
+When we first encounted this problem, we decided that the best option for now was to physically swap the bytes on the GPMC interface. This means word reads and writes have a built-in byte swap and since this is most operations (e.g., opcode fetches), this seemed okay. For byte read/write we xor the address and for long read/write we swap the high/low portions of the long word. This leads to one extra opcode in all 8-bit memory operations and one (read/write) or two (read-modify-write) extra opcodes on 32-bit memory operations.
 
 This would hurt performance a fair bit -- not when executing through the GPMC (which operates at a couple orders of magnitude slower than the CPU) -- but when running in 32-bit mode from the internal DRAM. We cannot hardware byte-swap words there and we'd have to add extra conditionals to see if we're running through the GPMC or DRAM, perform the required swapping. Memory overheads will quickly baloon out of control and our goal of 1000 MIPS would have been likely unachievable.
 

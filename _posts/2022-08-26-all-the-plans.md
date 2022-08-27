@@ -52,7 +52,7 @@ We have more information (WIP) on the Wiki. https://github.com/nonarkitten/amiga
 
 Which has lead us to the DIP48 common board. There was once a very nice DIP48 board that could be made to drop into just about any socket, but they stopped making this a few years back. With just a small alternation of the power and ground pins we've been able to quickly create boards for Gary, Denise, Paula and "Skinny" Agnus. We already have a perfectly working Gary based on the Xilinx CPLD, but those re becoming hard to get, so we're making multiple designs.
  - common-ish board for Denise, "Skinny" Agnus, Paula and Gary
- - cool "flip-chip" design for more chop-like look
+ - cool "flip-chip" design for more chip-like look
  - possibility of including up to 16MB pSRAM
  - option to upgrade to AGA later
 
@@ -61,7 +61,7 @@ Which has lead us to the DIP48 common board. There was once a very nice DIP48 bo
 
 Which led us to a DIP40 deisgn, since that's just a matter of cropping off a few pins. This can become so many things, from the Amiga CIAs to the very CPU used by the Commodore 64. Yeah, FPGA 6502's have been done, but I thought it would be fun to make our own as well. So we'll have a "Buffee Mini" as well.
  - common-ish board for 6502, 6510, 65816, 8086, Z80, VIC-II, CIA, VIA, etc...
- - cool "flip-chip" design for more chop-like look
+ - cool "flip-chip" design for more chip-like look
  - ability to vastly exceed the performance of original CPUs
  - possibility of including up to 16MB pSRAM
 

@@ -9,6 +9,6 @@ My first introduction to "typography" was the typewriter. My mothers old typewri
 
 Figure 1: The Mighty Vertical Quotes
 
-I can use these for contractions, like can't, for quotes 'like this' or in math as the prime symbol (X' = X + 1). What a versatile symbol and so clearly understood in each, different use case. Vertical quotes are simple, clean and efficient. Curly quotes are fine to use is your intent is to make your document look as though it were published in the 19th Century. I, however, do not profess to have any nostalgia for the Victorian times and see this insistence on the curly quote to be nothing more than an anachronism.
+I can use these for contractions, like can't, for quotes 'like this' or in math as the prime symbol (X' = X + 1). What a versatile symbol and so clearly understood in each, different use case. Vertical quotes are simple, clean and efficient. Curly quotes are fine to use if your intent is to make your document look as though it were published in the 19th Century. I, however, do not profess to have any nostalgia for the Victorian times and see this insistence on the curly quote to be nothing more than an anachronism.
 
 So please, people, turn off your Smart Quotes feature. You're not impressing anyone.

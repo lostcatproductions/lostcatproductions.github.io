@@ -5,6 +5,7 @@
 }
 
 pre.highlight {
+  font-family:'CourierScreenplay','Courier', monospace;
   background-color: #efefef;
   padding: 4px; /* 4px 4px 6px; */
   border: 1px solid #ddd;
@@ -16,10 +17,10 @@ pre.highlight {
   box-shadow: 3px 3px rgba(0,0,0,0.1);
 */
   margin: 0; /* 10px 0 10px 0; */
-  overflow: scroll;
+  overflow: auto;
 }
 
-code pre {
+code {
   font-family:'CourierScreenplay','Courier', monospace;
 }
 

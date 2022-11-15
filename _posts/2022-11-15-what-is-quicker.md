@@ -182,7 +182,7 @@ Ready.
 Are you sure [y/N]? yCCCCCCCCCC
 ```
 
-If you are brave. And I do mean incredibly brave, you're welcome to download and play with the bootloader. You can upload this via UART (using XMODEM transfer) or JTAG and the appropriate cables. I do not recommend anyone much with the GreenPAK programming yet until we're 100% sure this won't brick anymore Buffee's. These CPU's are unobtanium as it is, and I cannot replace any broken boards. You've been warned.
+If you are brave. And I do mean incredibly brave, you're welcome to download and play with the bootloader. You can upload this via UART (using XMODEM transfer) or JTAG and the appropriate cables. I do not recommend anyone muck with the GreenPAK programming yet until we're 100% sure this won't brick anymore Buffee's. These CPU's are unobtanium as it is, and I cannot replace any broken boards. You've been warned.
 
 [buffee_bootloader.bin.zip](https://github.com/lostcatproductions/lostcatproductions.github.io/files/10016799/buffee_bootloader.bin.zip)
 

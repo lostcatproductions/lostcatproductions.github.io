@@ -86,7 +86,7 @@ This also simplifies the whole return-to-PJIT-cache logic in that we don't need 
 
 ### Division and Other Hellish Opcodes
 
-Would you believe our CPU doesn't have hardware division? Me neither at the time. Like Division, there are a few opcodes that need a lot more effort and this really skews the "5 cycles" I mention above. In fact, more than 25% of all the opcode handlers are fewer than two cycles, but there are a few obscenely long ones that messes everything up, including MOVEP, MOVEM, DIVU/DIVS, ROXL/ROXR, ABDC/SBCD/NBCD.
+Would you believe our CPU doesn't have hardware division? Me neither at the time. Like Division, there are a few opcodes that need a lot more effort and this really skews the "5 cycles" I mention above. In fact, more than 25% of all the opcode handlers are fewer than two cycles, but there are a few obscenely long ones that messes everything up, including MOVEP, MOVEM, DIVU/DIVS, ROXL/ROXR, ABCD/SBCD/NBCD.
 
 Each of these have to drop into more traditional "interpreter" handlers right now. I have been refactoring these a little to sort-of-inline a more complex handler for the common stuff with per-opcode offload. This is messy though and doesn't pass the smell test. There has to be a better way.
 

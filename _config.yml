@@ -86,3 +86,7 @@ exclude:
   - CNAME
 
 theme: jekyll-theme-architect
+
+# To enable pagination for posts on your blog, add a line to the _config.yml file that specifies how many items should be displayed per page:
+# The number should be the maximum number of Posts you’d like to be displayed per-page in the generated site.
+paginate: 5

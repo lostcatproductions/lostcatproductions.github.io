@@ -89,7 +89,7 @@ theme: jekyll-theme-architect
 
 # Pagination configuration (used by the `blog` layout)
 paginate:            5
-paginate_path:       '/_posts/:num/'
+paginate_path:       "/blog/page:num"
 
 # -----------------------------------------------------------------------------
 #  Advanced configuration

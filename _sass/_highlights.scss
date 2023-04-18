@@ -1,28 +1,19 @@
-@font-face {
-  font-family: 'CourierScreenplay';
-  src: url('/CourierScreenplay.woff') format('woff'),
-       url('/CourierScreenplay.ttf') format('truetype');
-}
 
-pre.highlight {
-  font-family:'CourierScreenplay','Courier', monospace;
-  font-size: smaller;
-  background-color: #eee;
-  padding: 4px; /* 4px 4px 6px; */
-  border: 1px solid #ddd;
-/*
+.highlight {
+  background-color: #1e1c3f;
   padding: 7px 7px 7px 10px;
-  
-  -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  box-shadow: 3px 3px rgba(0,0,0,0.1);
-*/
-  margin: 0; /* 10px 0 10px 0; */
   overflow: auto;
+  font-size: 90%;
 }
 
 code {
-  font-family:'CourierScreenplay','Courier', monospace;
+  font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+  color: #d8d8d8;
+}
+
+.highlighter-rouge { 
+  background-color: #FAFAFA; 
+  color: #FF554A; 
 }
 
 .highlight .c { color: #586E75 } /* Comment */
@@ -58,7 +49,7 @@ code {
 .highlight .m { color: #2AA198 } /* Literal.Number */
 .highlight .s { color: #2AA198 } /* Literal.String */
 .highlight .na { color: #93A1A1 } /* Name.Attribute */
-.highlight .nb { color: #B58900 } /* Name.Builtin */
+.highlight .nb { color: #E91E63 } /* Name.Builtin */
 .highlight .nc { color: #268BD2 } /* Name.Class */
 .highlight .no { color: #CB4B16 } /* Name.Constant */
 .highlight .nd { color: #268BD2 } /* Name.Decorator */
@@ -67,7 +58,7 @@ code {
 .highlight .nf { color: #268BD2 } /* Name.Function */
 .highlight .nl { color: #93A1A1 } /* Name.Label */
 .highlight .nn { color: #93A1A1 } /* Name.Namespace */
-.highlight .nx { color: #555 } /* Name.Other */
+.highlight .nx { color: #B39DDB } /* Name.Other */
 .highlight .py { color: #93A1A1 } /* Name.Property */
 .highlight .nt { color: #268BD2 } /* Name.Tag */
 .highlight .nv { color: #268BD2 } /* Name.Variable */

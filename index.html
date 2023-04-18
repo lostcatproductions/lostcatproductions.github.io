@@ -1,42 +1,58 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <style>
-      body { 
-        background-image: url('/images/stary_night.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center; 
-        background-size: cover;
-      }
-      @font-face {
-        font-family: 'GeosansLight';
-        font-style: normal;
-        font-weight: normal;
-        src: local('GeosansLight'), url('GeosansLight.woff') format('woff');
-      }
-      .logo {
-        font-family: 'GeosansLight';
-        font-weight: normal;
-        font-size: 30px;
-        color: #FFEB5C;
-        margin: 0px auto;
-      } 
-    </style>
-  </head>
-  <body>
+---
+layout: default
+---
+<style>
+  #splash {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 9999;
+    background-image: url('/images/stary_night.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;    
+    opacity: 1; /* set the initial opacity to fully visible */
+    transition: opacity 0.3s ease-in-out; /* add a transition effect */
+  }
+  
+  #splash.fade-out {
+    opacity: 0; /* set the opacity to fully transparent */
+  }
+  
+  @font-face {
+    font-family: 'GeosansLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('GeosansLight'), url('/GeosansLight.woff') format('woff');
+  }
+  
+  .logo {
+    font-family: 'GeosansLight';
+    font-weight: normal;
+    font-size: 30px;
+    color: #FFEB5C;
+    margin: 0px auto;
+    cursor: pointer;
+  }   
+</style>
+
+<div id="splash">
     <center>
-      <div class="logo"
-           onclick="location.href='home';" 
-           style="cursor: pointer;"
-           >
+      <div class="logo">
         <img src="/images/Buffee_Cat.png" width="256"/>
         <br/><span id="slogan"/>
       </div>
     </center>
-  </body>
-</html>
+</div>
+
 <script>
+  const splash = document.getElementById("splash");
+  const splashDismissed = localStorage.getItem("splashDismissed");  
   const messages = [
     'Your 68k Has Insufficient Cats', 
     'All Your 68k Are Belong to Us', 
@@ -46,6 +62,65 @@
     '68k the Next Generation'
   ];
   const randomIndex = Math.floor(Math.random() * messages.length);
+  
+  if (!splashDismissed) {
+    // show the splash page if it hasn't been dismissed
+    splash.style.display = "block";
+  }
+  
   document.getElementById("slogan").innerHTML = messages[randomIndex];
+  
+  document.getElementById("splash").addEventListener("click", function() {
+    /* add the "fade-out" class */
+    this.classList.add("fade-out");
+    /* hide the div after the transition is complete */
+    setTimeout(() => {
+      this.style.display = "none";
+      /* set the flag to indicate the splash page has been dismissed */
+      localStorage.setItem("splashDismissed", true); 
+    }, 500); 
+      
+  });  
 </script>
 
+<div class="posts">
+  {% for post in paginator.posts %}
+    <article class="post">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <h1>{{ post.title }}</h1>
+      </a>
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">...Read More</a>
+
+    </article>
+  {% endfor %}
+
+  <!-- pagination -->
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    {% else %}
+      <span>&laquo; Prev</span>
+    {% endif %}
+
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <span class="webjeda">{{ page }}</span>
+      {% elsif page == 1 %}
+        <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+      {% else %}
+        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    {% else %}
+      <span>Next &raquo;</span>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>

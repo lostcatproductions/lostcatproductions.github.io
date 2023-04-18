@@ -48,23 +48,23 @@ In cases where there are two extension words (MOVE), this is a little more compl
 5. The 68000 core operation is executed
 
 For now we're only dealing with the 68000; the 68020's more complex addressing modes will be dealt with later. So what does this look like?
-```
+```m68k
 	$303C	MOVE.W IMM,D0
 	$1234	IMM
 ```
 The output of this is in reverse though:
-```
+```m68k
 	MOV R0, #IMM
 	BL  MOVE_W_IMM_D0
 ```
 A 32-bit immediate is handled in the same way:
-```
+```m68k
 	$303C MOVE.W IMM,D0
 	$1234 IMM_H
 	$5678 IMM_L
 ```
 And as ARM instructions:
-```
+```armasm
 	MOV  R0, IMM_L
 	MOVT R0, IMM_H
 	BL   MOVE_L_IMM_D0

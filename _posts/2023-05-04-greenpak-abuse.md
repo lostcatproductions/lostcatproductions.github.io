@@ -5,7 +5,7 @@ title: GreenPAK Abuse 101
 
 When we originally chose to use the AM3358, one of the major reasons for it was the existence of the GPMC or General Purpose Memory Controller. We incorrectly assumed it would be able to cope with virtually any kind of bus, including the 68000, so we eventually had to add a small CPLD to our board -- the GreenPAK. But it wasn't without its own issues.
 
-Aside from the abysmal number of pins, the snafu regarding the pin numbering reversing between packaged and the very difficult to use visual editor (please give us Verilog Renesas!), the big problem we've had with the GreenPAK is it's speed -- it is not a terribly fast chip. While a Xilinx CPLD might have a 5ns pin-to-pin minimum, the GreenPAK has 12ns simply passing through a logic cell and about 20ns simply getting through the GPIO structure!
+Aside from the abysmal number of pins, the snafu regarding the pin numbering reversing between packages and the very difficult to use visual editor (please give us Verilog Renesas!), the big problem we've had with the GreenPAK is it's speed -- it is not a terribly fast chip. While a Xilinx CPLD might have a 5ns pin-to-pin minimum, the GreenPAK has 12ns simply passing through a logic cell and about 20ns simply getting through the GPIO structure!
 
 Shockingly, we're able to deal with most of that, but one thing that we couldn't was the amount of jitter the meagre 25MHz clock created. At this speed a simple flip flop takes 40ns with about a +/-20ns margin of error. This is well outside of the timing requirements for the 68000 and made adjusting the GPMC signals to conform to 68000's almost impossible.
 

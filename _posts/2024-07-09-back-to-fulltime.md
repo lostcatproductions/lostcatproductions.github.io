@@ -9,7 +9,7 @@ Well, I was laid off. But what sucks for me will be a win for the community as I
 | :-: |
 |Are we there yet Papa Smurf?|
 
-We can read chip RAM at 100% if we "cheat". Our error rate was as low as 2 errors per 25,600 reads, but that's enough to crash any computer within microseconds of booting. However, there's an old trick I used back in my firmware days of debouncing with three reads -- basically it's (A&B)|(A&C)|(B&C). As long as the bits are right 2 of the 3 times, and we don't see any sort of "clustering" with the read/write errors then we should be good. And so far we are.
+We can read chip RAM at 100% if we "cheat". Our error rate was as low as 2 errors per 25,600 reads, but that's enough to crash any computer within microseconds of booting. However, there's an old trick I used back in my firmware days of debouncing with three reads -- basically it's `(A&B)|(A&C)|(B&C)`. As long as the bits are right 2 of the 3 times, and we don't see any sort of "clustering" with the read/write errors then we should be good. And so far we are.
 
 Is it fast? Nope. Does it work? Yeah.
 

@@ -19,7 +19,7 @@ Our immediate goal now is to simply show it running at all and we're very, very 
 | :-: |
 |Forgive the dust.|
 
-This is also proving out v0.8 as it clearly passes the smoke test (as in, neither the CDTV nor Buffee released the magic smoke). This is very promising ans means that v0.8 may be the final version. Buffee v0.8 includes a number of minor fixes to improve our quality of life, includeing
+This is also proving out v0.8 as it clearly passes the smoke test (as in, neither the CDTV nor Buffee released the magic smoke). This is very promising and means that v0.8 may be the final version. Buffee v0.8 includes a number of minor fixes to improve our quality of life, includeing
 
 - bytes are swapped to allow native, big-endian memory operations
 - greenpak is properly integrated, not as a mini daughter board

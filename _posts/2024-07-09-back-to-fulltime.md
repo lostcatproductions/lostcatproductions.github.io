@@ -13,7 +13,7 @@ We can read chip RAM at 100% if we "cheat". Our error rate was as low as 2 error
 
 Is it fast? Nope. Does it work? Yeah.
 
-Our immediate goal now is to simply show it running at all and we're very, very close. The outstanding issue seems to be with interrupts and weird gremlins I thought might have been because of my CDTV relic. However, it turns out the CDTV is fine (yay!) and it was mu socket tower that had developed some poor connectivity issues and was causing us all sorts of grief. I have dug down to the basement now and we're getting good signals again.
+Our immediate goal now is to simply show it running at all and we're very, very close. The outstanding issue seems to be with interrupts and weird gremlins I thought might have been because of my CDTV relic. However, it turns out the CDTV is fine (yay!) and it was my socket tower that had developed some poor connectivity issues and was causing us all sorts of grief. I have dug down to the basement now and we're getting good signals again.
 
 |![How low can you go?](https://raw.githubusercontent.com/lostcatproductions/lostcatproductions.github.io/master/images/Buffee_v0.8.png)|
 | :-: |

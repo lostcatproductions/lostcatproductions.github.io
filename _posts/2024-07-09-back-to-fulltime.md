@@ -37,3 +37,5 @@ We're not worrying about PJIT right now. While that is still the whole point, on
 As for the beta boards, yes, those will still work. I'm getting the byte-swapper boards sent back to me and I'll mail them out once I do. They'll come "some assembly required," but everyone will get one.
 
 Hopefully in the next little while, we'll drop a v0.4 that can actually run something.
+
+P.S. om the prices. OSD3358 has been [showing good stock](https://octopart.com/osd3358-512m-bsm-octavo+systems-86815982?r=sp) and prices have been steadily falling over the past six months. They're still almost double where they were from pre-pandemic, but I think no one should be expecting that to ever return. We're in a post-COVID, high-inflation economy right now and we're all going to have to adjust.

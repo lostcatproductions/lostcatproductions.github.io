@@ -6,8 +6,13 @@
 }
 
 code {
-    font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+    font-family:'Courier Prime','Courier', Courier, monospace;
     color: #d8d8d8;
+}
+
+pre, code, textarea {
+    line-height: 1.0;
+    letter-spacing: -0.2px;
 }
 
 .highlighter-rouge { 

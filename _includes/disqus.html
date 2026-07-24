@@ -1,17 +1,21 @@
 {% if site.disqus %}
 <div class="comments">
 	<div id="disqus_thread"></div>
-	<script type="text/javascript">
-
-	    var disqus_shortname = '{{ site.disqus }}';
-
-	    (function() {
-	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	    })();
-
-	</script>
-	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <script src="https://giscus.app/client.js"
+            data-repo="lostcatproductions/lostcatproductions.github.io"
+            data-repo-id="MDEwOlJlcG9zaXRvcnkzMzIzNTExMzA="
+            data-category="Announcements"
+            data-category-id="DIC_kwDOE89Gms4DB5RQ"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="bottom"
+            data-theme="light"
+            data-lang="en"
+            crossorigin="anonymous"
+            async>
+    </script>
+	<noscript>Please enable JavaScript to view the comments.</a></noscript>
 </div>
 {% endif %}

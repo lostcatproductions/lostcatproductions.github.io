@@ -5,6 +5,11 @@ title: PJIT vs Apple
 
 When Apple introduced PowerPC they also introduced the idea of system-level emulation providing a stop-gap for applications (and ROM) to remain as 68K code for a while. The emulator, written originally by Gary Davidian, introduced some novel features, but wasn't terribly fast -- it was a later version made by Eric Traut that introduced us to the term "Dynamic Recompiler" which would become the forerunner of Just-In-Time (JIT) Compilers. It serves as one of only two emulators which use this model.
 
+## Update
+
+Much of what's here on Apple's Dynamic Recompiler is wrong. I've added a new post covering this here:
+[Woah Nelly](https://www.buffee.ca/whoa-nelly/)
+
 # Update on Hardware
 The situation on the availability and price on the MCU hasn't improved much -- they're still insanely expensive. I will be honest -- I'm not sure what to do there. There are a lot of fairly good options out there with the STM32MP13 probably leading the pack, but none of them have the level of integration that the OSD3358 had. Obviously such a pivot means redoing a lot of work, so you can probably understand my hesitation.
 

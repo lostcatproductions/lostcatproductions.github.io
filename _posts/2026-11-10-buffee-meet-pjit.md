@@ -3,10 +3,6 @@ layout: post
 title: Buffee, Meet PJIT
 ---
 
-# Buffee and PJIT: Together at Last
-
-*Draft. Placeholders in [brackets].*
-
 In 2020 I drew the schematics for a small board that was going to plug into an Amiga's CPU socket and make it fast. I gave it a name, ordered the boards, and told people it would be done Soon<sup>(tm)</sup>. The boards arrived. The couple of months have since had a few children.
 
 This is the story of why it took so long, what I believed that turned out to be false, and what finally made Buffee boot to Workbench on a 1 GHz ARM that thinks it is a 68000. There are binaries at the end, so you can skip to them if you only came for the downloads.

@@ -48,7 +48,7 @@ Boots Kickstart 3.1 to Workbench on an A500+ (PAL), from the stock ROM and a flo
 |---|:---:|:---:|
 | Dhrystone 2.1 DMIPS | 21.6 | 349 |
 | BogoMIPS delay loop | 18.8 | 287 |
-| SysInfo Mips | 0.43</br>(chip RAM) | 260~300</br>(local RAM) |
+| SysInfo Mips | 0.43 (chip RAM) | 260~300 (local RAM) |
 
 ![image](/images/sysinfo.jpg)
 

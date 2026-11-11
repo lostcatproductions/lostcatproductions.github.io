@@ -3,8 +3,6 @@ layout: post
 title: Whoa Nelly
 ---
 
-# PJIT vs Apple: I Was Wrong
-
 Back in 2024 I wrote [PJIT vs Apple](https://www.buffee.ca/pjit-vs-apple/), where I explained how Apple's 68K emulator for PowerPC worked, how Eric Traut's "Dynamic Recompiler" improved on Gary Davidian's original, and how much PJIT had in common with it. Since then I've taken that emulator apart, all of it, instruction by instruction, and I have some crow to eat. Nearly everything I said about the Dynamic Recompiler (DR) was wrong. WRONG wrong.
 
 There are really three stories here -- what I thought the DR did, what Apple's patent says it did, and what's actually sitting in the ROM -- and no two of them agree. So let's go through them.
